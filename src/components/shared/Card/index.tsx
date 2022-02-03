@@ -1,6 +1,6 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
-import { IPost, usePost } from 'api/Post';
+import { IRecipe, useRecipe } from 'api/Recipe';
 import Flex from '../Flex';
 import cx from "classnames";
 
@@ -11,13 +11,13 @@ import { useHistory } from 'react-router-dom';
 
 const useStyles = createUseStyles(styles);
 
-export type ICardpost = IPost & { featured?: boolean, onClick?: () => void };
+export type ICardpost = IRecipe & { featured?: boolean, onClick?: () => void };
 
 const Card = (props: ICardpost) => {
     const classes = useStyles();
     const history = useHistory();
 
-    const post = usePost(props.id);
+    const recipe = useRecipe(props.id);
 
     const rootClasses = cx(classes.root, { [classes.featured]: props.featured });
 
@@ -31,24 +31,24 @@ const Card = (props: ICardpost) => {
 
     return <div className={rootClasses} onClick={handleClick}>
         <div className={classes.imageWrapper}>
-            <CardBadge label={post.topics[0].label} onClick={navigate(`/t/${post.topics[0].id}`)} />
+            <CardBadge label={recipe.topics[0].label} onClick={navigate(`/t/${recipe.topics[0].id}`)} />
             <Ink /> 
-            <img className={classes.image} onClick={navigate(`/p/${post.id}`)} src={post.thumbnail_url} alt="thumbnail" />
+            <img className={classes.image} onClick={navigate(`/r/${recipe.id}`)} src={recipe.thumbnail_url} alt="thumbnail" />
         </div>
         <div className={classes.contentWrapper}>
-            <h3 onClick={navigate(`/p/${post.id}`)}>{post.title}</h3>
-            <p>{post.short}</p>
+            <h3 onClick={navigate(`/r/${recipe.id}`)}>{recipe.title}</h3>
+            <p>{recipe.short}</p>
         </div>
         
 
 
         <Flex alignItems="center" justifyContent="space-between" className={classes.footerWrapper}>
             <Flex justifyContent="flex-start" alignItems="center">
-                <img alt="author avatar" src={post.author?.avatar_url} className={classes.footerAvatar} />
-                <p>by {post.author?.name}</p>
+                <img alt="author avatar" src={recipe.author?.avatar_url} className={classes.footerAvatar} />
+                <p>by {recipe.author?.name}</p>
             </Flex>
             <div>
-                <p>{moment(post.created_at).fromNow()}</p>
+                <p>{moment(recipe.created_at).fromNow()}</p>
             </div>
         </Flex>
     </div>

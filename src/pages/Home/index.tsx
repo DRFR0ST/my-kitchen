@@ -1,5 +1,5 @@
 import React from "react";
-import { usePosts } from "api/Post";
+import { useRecipes } from "api/Recipe";
 import styles from "./styles";
 import { createUseStyles, useTheme } from "react-jss";
 import { Card } from "components/shared";
@@ -16,7 +16,7 @@ const useStyles = createUseStyles(styles);
 
 const Home = () => {
     const classes = useStyles();
-    const posts = usePosts();
+    const recipes = useRecipes();
     const topics = useTopics();
     const theme = useTheme() as ITheme;
     const history = useHistory();
@@ -37,7 +37,7 @@ const Home = () => {
                 options={{}} // default {}
                 disableImagesLoaded={false} // default false
             >
-               { posts.map(post => <Card key={post.id} {...post} />) }
+               { recipes.map(post => <Card key={post.id} {...post} />) }
             </Masonry>
         </div>
     </div>

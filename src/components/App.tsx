@@ -4,7 +4,7 @@ import { ThemeProvider } from "react-jss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { AppBar } from "components/common";
  
-import { Home as HomePage, SinglePost as SinglePostPage, Wrong as WrongPage, SingleTopic as SingleTopicPage, Settings as SettingsPage } from "../pages";
+import { Home as HomePage, SinglePost as SinglePostPage, SingleRecipe as SingleRecipePage, Wrong as WrongPage, SingleTopic as SingleTopicPage, Settings as SettingsPage } from "../pages";
 import DynamicTheme from "utils/theme";
 import "utils/icons"
 
@@ -22,6 +22,7 @@ function App() {
                 <Route exact path="/" component={HomePage} />
                 <Route exact path="/settings" component={SettingsPage} />
                 <Route path="/p/:id" component={SinglePostPage} />
+                <Route path="/r/:id" component={SingleRecipePage} />
                 <Route path="/t/:id" component={SingleTopicPage} />
                 <Route component={WrongPage} />
               </Switch>

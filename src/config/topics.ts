@@ -1,7 +1,6 @@
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
-import { faReact, faUbuntu, faJs, faWordpress } from "@fortawesome/free-brands-svg-icons";
-import { faPalette, faCode, faServer, faNetworkWired, faMobile, faDatabase, faDumpster } from '@fortawesome/free-solid-svg-icons'
+import { faCookieBite, faPizzaSlice, faBreadSlice, faBacon, faEgg} from '@fortawesome/free-solid-svg-icons'
 
 type IRawTopic = {
     label: string;
@@ -13,85 +12,41 @@ type IRawTopic = {
 
 export default
     [
-
         {
-            label: "React",
-            id: "react",
-            icon: faReact,
+            label: "Pizza",
+            id: "pizza",
+            icon: faPizzaSlice,
+            color: "#9A275A",
+            thumbnail_url: ""
+        },
+        {
+            label: "Breakfast",
+            id: "breakfast",
+            icon: faEgg,
             color: "#fff",
             thumbnail_url: ""
         },
         {
-            label: "Design",
-            id: "design",
-            icon: faPalette,
-            color: "#9C6",
+            label: "Sweets",
+            id: "sweets",
+            icon: faCookieBite,
+            color: "#9A275A",
             thumbnail_url: ""
         },
         {
-            label: "Hosting",
-            id: "hosting",
-            icon: faServer,
-            color: "#9C6",
+            label: "Fried",
+            id: "fried",
+            icon: faBacon,
+            color: "#9A275A",
             thumbnail_url: ""
         },
         {
-            label: "Snippets",
-            id: "snippets",
-            icon: faCode,
-            color: "#9C6",
+            label: "Baked",
+            id: "baked",
+            icon: faBreadSlice,
+            color: "#9A275A",
             thumbnail_url: ""
         },
-        {
-            label: "Network",
-            id: "network",
-            icon: faNetworkWired,
-            color: "#9C6",
-            thumbnail_url: ""
-        },
-        {
-            label: "Apps",
-            id: "apps",
-            icon: faMobile,
-            color: "#9C6",
-            thumbnail_url: ""
-        },
-        {
-            label: "DevOps",
-            id: "devops",
-            icon: faDatabase,
-            color: "#9C6",
-            thumbnail_url: ""
-        },
-        {
-            label: "JavaScript",
-            id: "javascript",
-            icon: faJs,
-            color: "#9C6",
-            thumbnail_url: ""
-        },
-        {
-            label: "Wordpress",
-            id: "wordpress",
-            icon: faWordpress,
-            color: "#9C6",
-            thumbnail_url: ""
-        },
-        {
-            label: "Linux",
-            id: "linux",
-            icon: faUbuntu,
-            color: "#9C6",
-            thumbnail_url: ""
-        },
-        {
-            label: "Offtopic",
-            id: "offtopic",
-            icon: faDumpster,
-            color: "#9C6",
-            thumbnail_url: ""
-        },
-
         
 
     ] as IRawTopic[]

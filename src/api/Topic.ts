@@ -1,6 +1,6 @@
 import topics from "config/topics";
 import { useRef } from "react";
-import { getParsedPosts, IPost } from "./Post";
+import { getParsedRecipes, IRecipe } from "./Recipe";
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 export interface ITopic {
@@ -10,7 +10,7 @@ export interface ITopic {
     thumbnail_url: string;
     color: string;
     exists: boolean;
-    childPosts: IPost[];
+    childPosts: IRecipe[];
 }
 
 export class Topic implements ITopic {
@@ -36,7 +36,7 @@ export class Topic implements ITopic {
     }
 
     get childPosts() {
-        return getParsedPosts().filter(post => post.topics.find(topic => topic.id === this.id));
+        return getParsedRecipes().filter(post => post.topics.find(topic => topic.id === this.id));
     }
 }
 
