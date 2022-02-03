@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LitteraProvider from "react-littera";
 import { ThemeProvider } from "react-jss";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { AppBar } from "components/common";
  
 import { Home as HomePage, SinglePost as SinglePostPage, SingleRecipe as SingleRecipePage, Wrong as WrongPage, SingleTopic as SingleTopicPage, Settings as SettingsPage } from "../pages";
