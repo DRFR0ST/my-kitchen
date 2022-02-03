@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d932c3f.chunk.css",
+    "main.js": "/static/js/main.10a2ff39.chunk.js",
+    "main.js.map": "/static/js/main.10a2ff39.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a40d4c96.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a40d4c96.js.map",
+    "static/js/2.bfe82eee.chunk.js": "/static/js/2.bfe82eee.chunk.js",
+    "static/js/2.bfe82eee.chunk.js.map": "/static/js/2.bfe82eee.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8c55b2dc709111438934bde019e151b7.js": "/precache-manifest.8c55b2dc709111438934bde019e151b7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7d932c3f.chunk.css.map": "/static/css/main.7d932c3f.chunk.css.map",
+    "static/js/2.bfe82eee.chunk.js.LICENSE.txt": "/static/js/2.bfe82eee.chunk.js.LICENSE.txt",
+    "static/media/british-pancakes--en_US.md": "/static/media/british-pancakes--en_US.284f0479.md",
+    "static/media/british-pancakes--pl_PL.md": "/static/media/british-pancakes--pl_PL.e75c7d03.md",
+    "static/media/cheese-omlette--en_US.md": "/static/media/cheese-omlette--en_US.8e34956e.md",
+    "static/media/cheese-omlette--pl_PL.md": "/static/media/cheese-omlette--pl_PL.5ef68736.md",
+    "static/media/empty.svg": "/static/media/empty.0fc775c4.svg",
+    "static/media/hello-world--en_US.md": "/static/media/hello-world--en_US.019772fd.md",
+    "static/media/hello-world--pl_PL.md": "/static/media/hello-world--pl_PL.68ee17e2.md",
+    "static/media/reset-wordpress-password--en_US.md": "/static/media/reset-wordpress-password--en_US.dbfbafea.md",
+    "static/media/rudy--en_US.md": "/static/media/rudy--en_US.b7beff9a.md",
+    "static/media/rudy--pl_PL.md": "/static/media/rudy--pl_PL.888179a9.md",
+    "static/media/rudypedal--en_US.md": "/static/media/rudypedal--en_US.b7beff9a.md",
+    "static/media/rudypedal--pl_PL.md": "/static/media/rudypedal--pl_PL.888179a9.md",
+    "static/media/the-perfect-pizza--en_US.md": "/static/media/the-perfect-pizza--en_US.dbfbafea.md",
+    "static/media/the-perfect-pizza--pl_PL.md": "/static/media/the-perfect-pizza--pl_PL.dbfbafea.md",
+    "static/media/welcome-to-jamrock--en_US.md": "/static/media/welcome-to-jamrock--en_US.355e5899.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a40d4c96.js",
+    "static/js/2.bfe82eee.chunk.js",
+    "static/css/main.7d932c3f.chunk.css",
+    "static/js/main.10a2ff39.chunk.js"
+  ]
+}
