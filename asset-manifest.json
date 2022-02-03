@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-kitchen/static/css/main.7d932c3f.chunk.css",
-    "main.js": "/my-kitchen/static/js/main.42f195a2.chunk.js",
-    "main.js.map": "/my-kitchen/static/js/main.42f195a2.chunk.js.map",
+    "main.js": "/my-kitchen/static/js/main.45f9d16f.chunk.js",
+    "main.js.map": "/my-kitchen/static/js/main.45f9d16f.chunk.js.map",
     "runtime-main.js": "/my-kitchen/static/js/runtime-main.ee535b1b.js",
     "runtime-main.js.map": "/my-kitchen/static/js/runtime-main.ee535b1b.js.map",
-    "static/js/2.2288a4a3.chunk.js": "/my-kitchen/static/js/2.2288a4a3.chunk.js",
-    "static/js/2.2288a4a3.chunk.js.map": "/my-kitchen/static/js/2.2288a4a3.chunk.js.map",
+    "static/js/2.bfe82eee.chunk.js": "/my-kitchen/static/js/2.bfe82eee.chunk.js",
+    "static/js/2.bfe82eee.chunk.js.map": "/my-kitchen/static/js/2.bfe82eee.chunk.js.map",
     "index.html": "/my-kitchen/index.html",
-    "precache-manifest.28b7a11ba74ad2d4e31e31949156d9f3.js": "/my-kitchen/precache-manifest.28b7a11ba74ad2d4e31e31949156d9f3.js",
+    "precache-manifest.cf8138055f107dc4e00a0efebddb1f47.js": "/my-kitchen/precache-manifest.cf8138055f107dc4e00a0efebddb1f47.js",
     "service-worker.js": "/my-kitchen/service-worker.js",
     "static/css/main.7d932c3f.chunk.css.map": "/my-kitchen/static/css/main.7d932c3f.chunk.css.map",
-    "static/js/2.2288a4a3.chunk.js.LICENSE.txt": "/my-kitchen/static/js/2.2288a4a3.chunk.js.LICENSE.txt",
+    "static/js/2.bfe82eee.chunk.js.LICENSE.txt": "/my-kitchen/static/js/2.bfe82eee.chunk.js.LICENSE.txt",
     "static/media/british-pancakes--en_US.md": "/my-kitchen/static/media/british-pancakes--en_US.284f0479.md",
     "static/media/british-pancakes--pl_PL.md": "/my-kitchen/static/media/british-pancakes--pl_PL.e75c7d03.md",
     "static/media/cheese-omlette--en_US.md": "/my-kitchen/static/media/cheese-omlette--en_US.8e34956e.md",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ee535b1b.js",
-    "static/js/2.2288a4a3.chunk.js",
+    "static/js/2.bfe82eee.chunk.js",
     "static/css/main.7d932c3f.chunk.css",
-    "static/js/main.42f195a2.chunk.js"
+    "static/js/main.45f9d16f.chunk.js"
   ]
 }
